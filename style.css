@@ -1,0 +1,321 @@
+h1 {
+    color: grey;
+    font-size: 20;
+}
+.start{
+    position: relative;
+    left: 130px;
+    top: 400px;
+}
+/* .page1{
+    background-color: blanchedalmond;
+    z-index: -3;
+    height: 2500px;
+    width: 2500px;
+    left: 0px;
+    top: -300px;
+    position: relative;
+} */
+.p1{
+    position: relative;
+    left: 900px;
+    top: 400px;
+    color: darkgrey;
+    z-index: +1;
+
+}
+#kennel1 {
+    background-color: burlywood;
+    height: 100px;
+    width: 920px;
+    position: center;
+    border: 3px solid black;
+    z-index: -1;
+    position:relative;
+}
+#window{
+    color: grey;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    background-color: hotpink;
+}
+#door1{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 30px;
+    top: -100px;
+    
+}
+#door2{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 250px;
+    top: -180px;
+    
+}
+#door3{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 470px;
+    top: -260px;
+    
+}
+#door4{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 690px;
+    top: -340px;
+    
+}
+#dashTreat{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 80px;
+    top: -390px;
+}
+#buddyTreat{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 200px;
+    top: -390px;
+
+}
+#momoTreat{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 310px;
+    top: -390px;
+}
+#cocoTreat{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 430px;
+    top: -390px;
+}
+button{
+    position:relative;
+    left: 15px;
+    top: -140px;
+}
+#kennel2 {
+    background-color: burlywood;
+    height: 100px;
+    width: 920px;
+    position: center;
+    border: 3px solid black;
+    z-index: -1;
+    position:relative;
+    top: -330px;
+}
+#door5{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 30px;
+    top: -410px;
+    
+}
+#door6{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 250px;
+    top: -490px;
+    
+}
+#door7{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 470px;
+    top: -570px;
+    
+}
+#door8{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 690px;
+    top: -650px;
+    
+}
+#dashTreat1{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 80px;
+    top: -700px;
+}
+#buddyTreat1{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 200px;
+    top: -700px;
+
+}
+#momoTreat1{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 310px;
+    top: -700px;
+}
+#cocoTreat1{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 430px;
+    top: -700px;
+}
+/* #kennel2 {
+    background-color: burlywood;
+    height: 100px;
+    width: 920px;
+    position: center;
+    border: 3px solid black;
+    z-index: -1;
+    position:relative;
+}
+#door9{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 30px;
+    top: -80px;
+    
+}
+#door10{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 250px;
+    top: -160px;
+    
+}
+#door11{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 470px;
+    top: -240px;
+    
+}
+#door12{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 690px;
+    top: -320px;
+    
+}
+#dashTreat2{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 80px;
+    top: -370px;
+}
+#buddyTreat2{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 740px;
+    top: -400px;
+
+}
+#momoTreat2{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 520px;
+    top: -430px;
+}
+#cocoTreat2{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 300px;
+    top: -700px;
+} */

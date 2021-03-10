@@ -1,11 +1,12 @@
-const answer = ["Dash", "Buddy", "Momo"]
+$(() => {
+const answer = ["Dash", "Buddy", "Momo","Bella","Coco"]
 const player = []
 
 const shuffle = answer.sort(() => Math.random()- 0.5)
 console.log(shuffle);
 
 let compare = () => {
-    for (let i = 0; i < 3; i++){
+    for (let i = 0; i < 5; i++){
     if (shuffle[i] === player[i]){
     console.log("Yes");
     } else if(shuffle.some( a => a === player[i])){
@@ -14,22 +15,57 @@ let compare = () => {
     console.log("no"); 
  }
 }
-$('#isSelect').click = () => {
-    playerSelection0.push($('#dashTreat').val());
-}
-const showHint = $('<h4>').text(compare);
-$('.page2').append(showHint);
-const handlerAnswer = () => {
-    showHint.show();
-}
 compare();
-const playerSelection0 = "x"
-player.push(playerSelection0);
-const playerSelection1 = "x"
-player.push(playerSelection1);
-const playerSelection2 = "x"
-player.push(playerSelection2);
-const playerSelection3 = "x"
-player.push(playerSelection3);
-console.log(player);
+const logo = $('<h1>').text("Who\'s Back Game")
+$('body').prepend(logo);
 
+const firstPage = () => {
+        $('.page1').show();
+        $('.page2').hide();
+        $('.page5').hide();
+        $('.page6').hide();
+}
+$('body').append(firstPage());
+
+
+const play = $('<button>').text("I want to help").addClass("start");
+$('.page1').append(play);
+const handlerPlay = () => {
+        $('.page1').hide();
+        $('.page2').show();
+        $('.page5').hide();
+        $('.page6').hide();
+ }
+$('.start').on('click', handlerPlay);
+
+
+const knockKnock = $('<button>').text("Knock Knock").addClass("try1");
+$('.page2').append(knockKnock);
+
+$("#dashTreat") .on ('change', () => {
+    let value = $("#dashTreat").val();
+    player.push(value);
+
+})
+$("#buddyTreat").on ('change', () => {
+    let value = $("#buddyTreat").val();
+    player.push(value);
+
+})
+$("#momoTreat").on ('change', () => {
+    let value = $("#momoTreat").val();
+    player.push(value);
+
+})
+$("#cocoTreat").on ('change', () => {
+    let value = $("#cocoTreat").val();
+    player.push(value);
+
+})
+const hint =() => {
+compare();
+}
+ $('.try1').on('click', hint);
+ console.log(shuffle);
+ console.log(player);
+});
