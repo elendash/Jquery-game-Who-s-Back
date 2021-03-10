@@ -16,7 +16,7 @@ h1 {
     top: -300px;
     position: relative;
 } */
-.p1{
+.p{
     position: relative;
     left: 900px;
     top: 400px;
@@ -80,7 +80,7 @@ h1 {
     top: -340px;
     
 }
-#dashTreat{
+#treat1{
     position:relative;
     width: 100px;
     height: 30px;
@@ -91,7 +91,7 @@ h1 {
     left: 80px;
     top: -390px;
 }
-#buddyTreat{
+#treat2{
     position:relative;
     width: 100px;
     height: 30px;
@@ -103,7 +103,7 @@ h1 {
     top: -390px;
 
 }
-#momoTreat{
+#treat3{
     position:relative;
     width: 100px;
     height: 30px;
@@ -114,9 +114,9 @@ h1 {
     left: 310px;
     top: -390px;
 }
-#cocoTreat{
+#treat4{
     position:relative;
-    width: 100px;
+    width 100px;
     height: 30px;
     background:brown;
     border-radius: 40px 40px 40px 40px;
@@ -180,7 +180,7 @@ button{
     top: -650px;
     
 }
-#dashTreat1{
+#treat5{
     position:relative;
     width: 100px;
     height: 30px;
@@ -191,7 +191,7 @@ button{
     left: 80px;
     top: -700px;
 }
-#buddyTreat1{
+#treat6{
     position:relative;
     width: 100px;
     height: 30px;
@@ -203,7 +203,7 @@ button{
     top: -700px;
 
 }
-#momoTreat1{
+#treat7{
     position:relative;
     width: 100px;
     height: 30px;
@@ -214,7 +214,7 @@ button{
     left: 310px;
     top: -700px;
 }
-#cocoTreat1{
+#treat8{
     position:relative;
     width: 100px;
     height: 30px;
@@ -274,7 +274,7 @@ button{
     top: -320px;
     
 }
-#dashTreat2{
+#treat9{
     position:relative;
     width: 100px;
     height: 30px;
@@ -285,7 +285,7 @@ button{
     left: 80px;
     top: -370px;
 }
-#buddyTreat2{
+#treat10{
     position:relative;
     width: 100px;
     height: 30px;
@@ -297,7 +297,7 @@ button{
     top: -400px;
 
 }
-#momoTreat2{
+#treat11{
     position:relative;
     width: 100px;
     height: 30px;
@@ -308,7 +308,195 @@ button{
     left: 520px;
     top: -430px;
 }
-#cocoTreat2{
+#treat12{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 300px;
+    top: -700px;
+} 
+#kennel3 {
+    background-color: burlywood;
+    height: 100px;
+    width: 920px;
+    position: center;
+    border: 3px solid black;
+    z-index: -1;
+    position:relative;
+}
+#door13{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 30px;
+    top: -80px;
+    
+}
+#door14{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 250px;
+    top: -160px;
+    
+}
+#door15{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 470px;
+    top: -240px;
+    
+}
+#door16{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 690px;
+    top: -320px;
+    
+}
+#treat3{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 80px;
+    top: -370px;
+}
+#treat14{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 740px;
+    top: -400px;
+
+}
+#treat15{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 520px;
+    top: -430px;
+}
+#treat16{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 300px;
+    top: -700px;
+}
+#kennel4 {
+    background-color: burlywood;
+    height: 100px;
+    width: 920px;
+    position: center;
+    border: 3px solid black;
+    z-index: -1;
+    position:relative;
+}
+#door17{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 30px;
+    top: -80px;
+    
+}
+#door18{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 250px;
+    top: -160px;
+    
+}
+#door19{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 470px;
+    top: -240px;
+    
+}
+#door20{
+    position:relative;
+    background:black;
+    height: 80px;
+    width: 200px;
+    border-radius: 70px 70px 0px 0px;
+    left: 690px;
+    top: -320px;
+    
+}
+#treat17{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 80px;
+    top: -370px;
+}
+#treat18{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 740px;
+    top: -400px;
+
+}
+#treat19{
+    position:relative;
+    width: 100px;
+    height: 30px;
+    background:brown;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    color: white;
+    left: 520px;
+    top: -430px;
+}
+#treat20{
     position:relative;
     width: 100px;
     height: 30px;
@@ -319,3 +507,5 @@ button{
     left: 300px;
     top: -700px;
 } */
+
+
