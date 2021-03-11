@@ -88,7 +88,6 @@ $(() => {
 //         window.push($(this));
 // }
 // console.log(window);
-    const hint = () => {
     //     let window =[]
     //     $.each($(".hint1").children, function(element){
     // window.push($(this));
@@ -102,33 +101,40 @@ $(() => {
     //     } else{
     //         return;
     //     }
-        let showHint = $("<h4>").text(compare())
-        $("#window1").append(showHint)
-        if (compare().filter(el => el !== "Yes","Yes", "Yes", "Yes")) {
-            $('.try1').hide();
-            $('.page2').show();
-            $('.page3').show();
-            $('.page1').hide();
-            $('.page3').hide();
-            $('.page4').hide();
-            $('.page5').hide();
-            $('.page6').hide();
-            $('.page7').hide();
-            
-        } else {
-            $('.page8').hide();
-            $('.page8').show();
-            $('.page1').hide();
-            $('.page2').hide();
-            $('.page3').hide();
-            $('.page4').hide();
-            $('.page5').hide();
-            $('.page6').hide();
-            $('.page7').hide();
-        }
+const test =()=>{
+
+}
+test();
+
+    const hint = () => {    
+    let showHint = $("<h4>").text(compare())
+    $("#window1").append(showHint)
+let ans = ["Yes", "Yes", "Yes", "Yes"]
+let ansB = compare()
+    if (JSON.stringify(ans) === JSON.stringify(ansB)){
+        console.log("hello");
+        $('.page8').hide();
+        $('.page8').show();
+        $('.page1').hide();
+        $('.page2').hide();
+        $('.page3').hide();
+        $('.page4').hide();
+        $('.page5').hide();
+        $('.page6').hide();
+        $('.page7').hide();
+    }else {
+        $('.try1').hide();
+        $('.page2').show();
+        $('.page3').show();
+        $('.page1').hide();
+        $('.page3').hide();
+        $('.page4').hide();
+        $('.page5').hide();
+        $('.page6').hide();
+        $('.page7').hide();
+    }
     console.log(compare());
     }
-
     $('.try1').on('click', hint);
 
     const lastPage = $('<button>').text("Knock Knock Last").addClass("lastPage");
