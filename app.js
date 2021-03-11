@@ -12,11 +12,10 @@ let compare = () => {
     } else if(shuffle.some( a => a === player[i])){
         console.log("Answer is close");
     } else{
-    console.log("No"); 
+    console.log ( "No" ); 
  }
 }
 }
-compare();
 const logo = $('<h1>').text("Who\'s Back Game")
 $('body').prepend(logo);
 
@@ -51,30 +50,62 @@ $('.start').on('click', handlerPlay);
 const knockKnock = $('<button>').text("Knock Knock").addClass("try1");
 $('.page2').append(knockKnock);
 
+ 
 
-$("#treat1") .on ('change', () => {
-    let value = $("#treat1").val();
-    player.push(value);
+$(".firstTry").on ("change" ,(event) => {
+    let value = $(event.target).val();
+    player.push(value);   
+}) 
 
-})
-$("#treat2").on ('change', () => {
-    let value = $("#treat2").val();
-    player.push(value);
 
-})
-$("#treat3").on ('change', () => {
-    let value = $("#treat3").val();
-    player.push(value);
+$(".secondTry").on ("change" ,(event) => {
+    let value = $(event.target).val();
+    player.push(value);   
+}) 
 
-})
-$("#treat4").on ('change', () => {
-    let value = $("#treat4").val();
-    player.push(value);
+$(".thirdTry").on ("change" ,(event) => {
+    let value = $(event.target).val();
+    player.push(value);   
+}) 
 
-})
+
+$(".fourthTry").on ("change" ,(event) => {
+    let value = $(event.target).val();
+    player.push(value);   
+}) 
+
+$(".fifthTry").on ("change" ,(event) => {
+    let value = $(event.target).val();
+    player.push(value);   
+}) 
+// const hint =() => {
+//     compare();
+// }
+let showHint =$("<h4>").text(compare())
 const hint =() => {
-compare();
+    $("#window").append (showHint)
+    if (compare() === "Yes"){
+        $('.page8').show();
+        $('.page1').hide();
+        $('.page2').hide();
+        $('.page3').hide();
+        $('.page4').hide();
+        $('.page5').hide();
+        $('.page6').hide();
+        $('.page7').hide();
+    } else {
+        $('.page3').show();
+        $('.page1').hide();
+        $('.page2').show();
+        $('.page3').hide();
+        $('.page4').hide();
+        $('.page5').hide();
+        $('.page6').hide();
+        $('.page7').hide();
+        $('.page8').hide();
+    }
 }
+
  $('.try1').on('click', hint);
 
 const lastPage = $('<button>').text("Knock Knock Last").addClass("lastPage");
@@ -104,6 +135,6 @@ const handlerRefresh = () => {
  }
 $('.refresh').on('click', handlerRefresh);
 
- console.log(shuffle);
+ 
  console.log(player);
 });

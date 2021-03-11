@@ -34,11 +34,11 @@ h1 {
     position:relative;
 }
 #window{
-    color: grey;
+    color:black;
     position: relative;
-    left: 10px;
-    top: 10px;
-    background-color: hotpink;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
 }
 #door1{
     position:relative;
