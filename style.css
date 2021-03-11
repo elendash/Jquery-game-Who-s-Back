@@ -7,15 +7,7 @@ h1 {
     left: 130px;
     top: 400px;
 }
-/* .page1{
-    background-color: blanchedalmond;
-    z-index: -3;
-    height: 2500px;
-    width: 2500px;
-    left: 0px;
-    top: -300px;
-    position: relative;
-} */
+
 .p{
     position: relative;
     left: 900px;
@@ -84,46 +76,53 @@ h1 {
     position:relative;
     width: 100px;
     height: 30px;
-    background:brown;
+    
     border-radius: 40px 40px 40px 40px;
     text-align: center;
     color: white;
     left: 80px;
     top: -390px;
+    background:transparent;
+    border:transparent;
 }
 #treat2{
     position:relative;
     width: 100px;
     height: 30px;
-    background:brown;
+    
     border-radius: 40px 40px 40px 40px;
     text-align: center;
     color: white;
     left: 200px;
     top: -390px;
+    background:transparent;
+    border:transparent;
 
 }
 #treat3{
     position:relative;
     width: 100px;
     height: 30px;
-    background:brown;
+    
     border-radius: 40px 40px 40px 40px;
     text-align: center;
     color: white;
     left: 310px;
     top: -390px;
+    background:transparent;
+    border:transparent;
 }
 #treat4{
     position:relative;
-    width 100px;
+    width: 100px;
     height: 30px;
-    background:brown;
     border-radius: 40px 40px 40px 40px;
     text-align: center;
     color: white;
     left: 430px;
     top: -390px;
+    background:transparent;
+    border:transparent;
 }
 button{
     position:relative;
@@ -225,7 +224,7 @@ button{
     left: 430px;
     top: -700px;
 }
-/* #kennel2 {
+ #kennel2 {
     background-color: burlywood;
     height: 100px;
     width: 920px;
@@ -368,7 +367,7 @@ button{
     top: -320px;
     
 }
-#treat3{
+#treat13{
     position:relative;
     width: 100px;
     height: 30px;
@@ -506,6 +505,6 @@ button{
     color: white;
     left: 300px;
     top: -700px;
-} */
+} 
 
 
