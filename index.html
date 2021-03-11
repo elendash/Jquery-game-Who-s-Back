@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Who's Back?</title>
 <link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fascinate&family=Paytone+One&family=Righteous&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
 <script src = app.js></script>
 </head>
 <body>
@@ -18,7 +18,10 @@
     </div>
     <div class = page2>
      <div id = 'kennel1'></div>
-     <div id =window></div>
+     <div class= hint1 id =window1>1</div>
+     <div class= hint1 id =window2>2</div>
+     <div class= hint1 id =window3>3</div>
+     <div class= hint1 id =window4>4</div>
     <div id = 'door1'></div>
     <div id = 'door2'></div>
     <div id = 'door3'></div>
@@ -71,112 +74,113 @@
 </div>
 <div class = page3> 
     <div id = 'kennel2'></div>
-    <div id = 'door5'></div>
-    <div id = 'door6'></div>
-    <div id = 'door7'></div>
-    <div id = 'door8'></div>
-    <select class= secondTry id = treat5>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-    <select class= secondTry id = treat6>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-    <select class= secondTry id = treat7>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-    <select class= secondTry id = treat8>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select> -->
- <div class = page4>
-        <div id = 'kennel3'></div>
-        <div id = 'door9'></div>
-        <div id = 'door10'></div>
-        <div id = 'door11'></div>
-        <div id = 'door12'></div>
-    <select class= thirdTry id = treat9>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-    <select class= thirdTry id = treat10>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-    <select class= thirdTry id = treat11>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-    <select class= thirdTry id = treat12>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-  
+        <div class= hint2 id =window5></div>
+        <div class= hint2 id =window6></div>
+        <div class= hint2 id =window7></div>
+        <div class= hint2 id =window8></div>
+        <select class= secondTry id = treat5>
+            <option value ="None">Feed!</option>
+            <option value ="Dash">Dash</option>
+            <option value ="Buddy">Buddy</option>
+            <option value ="Momo">Momo</option>
+            <option value ="Coco">Coco</option>
+            <option value ="Bella">Bella</option>
+            <option value ="Goofy">Goofy</option>
+            <option value ="Bob">Bob</option>
+            <option value ="Tiny">Tiny</option>
+        </select>
+        <select class= secondTry id = treat6>
+            <option value ="None">Feed!</option>
+            <option value ="Dash">Dash</option>
+            <option value ="Buddy">Buddy</option>
+            <option value ="Momo">Momo</option>
+            <option value ="Coco">Coco</option>
+            <option value ="Bella">Bella</option>
+            <option value ="Goofy">Goofy</option>
+            <option value ="Bob">Bob</option>
+            <option value ="Tiny">Tiny</option>
+        </select>
+        <select class= secondTry id = treat7>
+            <option value ="None">Feed!</option>
+            <option value ="Dash">Dash</option>
+            <option value ="Buddy">Buddy</option>
+            <option value ="Momo">Momo</option>
+            <option value ="Coco">Coco</option>
+            <option value ="Bella">Bella</option>
+            <option value ="Goofy">Goofy</option>
+            <option value ="Bob">Bob</option>
+            <option value ="Tiny">Tiny</option>
+        </select>
+        <select class= secondTry id = treat8>
+            <option value ="None">Feed!</option>
+            <option value ="Dash">Dash</option>
+            <option value ="Buddy">Buddy</option>
+            <option value ="Momo">Momo</option>
+            <option value ="Coco">Coco</option>
+            <option value ="Bella">Bella</option>
+            <option value ="Goofy">Goofy</option>
+            <option value ="Bob">Bob</option>
+            <option value ="Tiny">Tiny</option>
+        </select> 
+    </div>
+     <div class = page4>
+            <div id = 'kennel3'></div>
+                <div class= hint3 id =window9></div>
+                <div class= hint3 id =window10></div>
+                <div class= hint3 id =window11></div>
+                <div class= hint3 id =window12></div>
+            <select class= thirdTry id = treat9>
+                <option value ="None">Feed!</option>
+                <option value ="Dash">Dash</option>
+                <option value ="Buddy">Buddy</option>
+                <option value ="Momo">Momo</option>
+                <option value ="Coco">Coco</option>
+                <option value ="Bella">Bella</option>
+                <option value ="Goofy">Goofy</option>
+                <option value ="Bob">Bob</option>
+                <option value ="Tiny">Tiny</option>
+            </select>
+            <select class= thirdTry id = treat10>
+                <option value ="None">Feed!</option>
+                <option value ="Dash">Dash</option>
+                <option value ="Buddy">Buddy</option>
+                <option value ="Momo">Momo</option>
+                <option value ="Coco">Coco</option>
+                <option value ="Bella">Bella</option>
+                <option value ="Goofy">Goofy</option>
+                <option value ="Bob">Bob</option>
+                <option value ="Tiny">Tiny</option>
+            </select>
+            <select class= thirdTry id = treat11>
+                <option value ="None">Feed!</option>
+                <option value ="Dash">Dash</option>
+                <option value ="Buddy">Buddy</option>
+                <option value ="Momo">Momo</option>
+                <option value ="Coco">Coco</option>
+                <option value ="Bella">Bella</option>
+                <option value ="Goofy">Goofy</option>
+                <option value ="Bob">Bob</option>
+                <option value ="Tiny">Tiny</option>
+            </select>
+            <select class= thirdTry id = treat12>
+                <option value ="None">Feed!</option>
+                <option value ="Dash">Dash</option>
+                <option value ="Buddy">Buddy</option>
+                <option value ="Momo">Momo</option>
+                <option value ="Coco">Coco</option>
+                <option value ="Bella">Bella</option>
+                <option value ="Goofy">Goofy</option>
+                <option value ="Bob">Bob</option>
+                <option value ="Tiny">Tiny</option>
+            </select>
+      
    </div> 
     <div class = page5> 
-    <div id = 'kennel4'></div>
-    <div id = 'door13'></div>
-    <div id = 'door14'></div>
-    <div id = 'door15'></div>
-    <div id = 'door16'></div>
+    <div id = 'kennel4'></div>    
+    <div class= hint4 id =window13></div>
+    <div class= hint4 id =window14></div>
+    <div class= hint4 id =window15></div>
+    <div class= hint4 id =window16></div>
     <select class= fourthTry id = treat13>
         <option value ="None">Feed!</option>
         <option value ="Dash">Dash</option>
@@ -221,58 +225,61 @@
         <option value ="Bob">Bob</option>
         <option value ="Tiny">Tiny</option>
     </select> 
+</div>
     <div class = page6>
         <div id = 'kennel5'></div>
-        <div id = 'door17'></div>
-        <div id = 'door18'></div>
-        <div id = 'door19'></div>
-        <div id = 'door20'></div>
-    <select class= fifthTry id = treat17>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-    <select class= fifthTry id = treat18>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-    <select class= fifthTry id = treat19>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
-    <select class= fifthTry id = treat20>
-        <option value ="None">Feed!</option>
-        <option value ="Dash">Dash</option>
-        <option value ="Buddy">Buddy</option>
-        <option value ="Momo">Momo</option>
-        <option value ="Coco">Coco</option>
-        <option value ="Bella">Bella</option>
-        <option value ="Goofy">Goofy</option>
-        <option value ="Bob">Bob</option>
-        <option value ="Tiny">Tiny</option>
-    </select>
+            <div class= hint4 id =window17></div>
+            <div class= hint4 id =window18></div>
+            <div class= hint4 id =window19></div>
+            <div class= hint4 id =window20></div>
+        <select class= fifthTry id = treat17>
+            <option value ="None">Feed!</option>
+            <option value ="Dash">Dash</option>
+            <option value ="Buddy">Buddy</option>
+            <option value ="Momo">Momo</option>
+            <option value ="Coco">Coco</option>
+            <option value ="Bella">Bella</option>
+            <option value ="Goofy">Goofy</option>
+            <option value ="Bob">Bob</option>
+            <option value ="Tiny">Tiny</option>
+        </select>
+        <select class= fifthTry id = treat18>
+            <option value ="None">Feed!</option>
+            <option value ="Dash">Dash</option>
+            <option value ="Buddy">Buddy</option>
+            <option value ="Momo">Momo</option>
+            <option value ="Coco">Coco</option>
+            <option value ="Bella">Bella</option>
+            <option value ="Goofy">Goofy</option>
+            <option value ="Bob">Bob</option>
+            <option value ="Tiny">Tiny</option>
+        </select>
+        <select class= fifthTry id = treat19>
+            <option value ="None">Feed!</option>
+            <option value ="Dash">Dash</option>
+            <option value ="Buddy">Buddy</option>
+            <option value ="Momo">Momo</option>
+            <option value ="Coco">Coco</option>
+            <option value ="Bella">Bella</option>
+            <option value ="Goofy">Goofy</option>
+            <option value ="Bob">Bob</option>
+            <option value ="Tiny">Tiny</option>
+        </select>
+        <select class= fifthTry id = treat20>
+            <option value ="None">Feed!</option>
+            <option value ="Dash">Dash</option>
+            <option value ="Buddy">Buddy</option>
+            <option value ="Momo">Momo</option>
+            <option value ="Coco">Coco</option>
+            <option value ="Bella">Bella</option>
+            <option value ="Goofy">Goofy</option>
+            <option value ="Bob">Bob</option>
+            <option value ="Tiny">Tiny</option>
+        </select>
+    
+        
   </div>
-
+ 
     <div class = page7>
         <p> "Oops! Those naughty pups are quite hard to indentify ain't it? <br>Why not give it another try?"</p>
     </div>

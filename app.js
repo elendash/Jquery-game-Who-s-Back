@@ -47,26 +47,26 @@ $(() => {
     })
 
 
-    $(".secondTry").on("change", (event) => {
-        let value = $(event.target).val();
-        player.push(value);
-    })
+    // $(".secondTry").on("change", (event) => {
+    //     let value = $(event.target).val();
+    //     player.push(value);
+    // })
 
-    $(".thirdTry").on("change", (event) => {
-        let value = $(event.target).val();
-        player.push(value);
-    })
+    // $(".thirdTry").on("change", (event) => {
+    //     let value = $(event.target).val();
+    //     player.push(value);
+    // })
 
 
-    $(".fourthTry").on("change", (event) => {
-        let value = $(event.target).val();
-        player.push(value);
-    })
+    // $(".fourthTry").on("change", (event) => {
+    //     let value = $(event.target).val();
+    //     player.push(value);
+    // })
 
-    $(".fifthTry").on("change", (event) => {
-        let value = $(event.target).val();
-        player.push(value);
-    })
+    // $(".fifthTry").on("change", (event) => {
+    //     let value = $(event.target).val();
+    //     player.push(value);
+    // })
     const compare = () => {
         let playerGuess = []
         for (let i = 0; i < 4; i++ && i % 4 === 0) {
@@ -80,21 +80,32 @@ $(() => {
         } return playerGuess;
     }
    
-
+// let window =[]
+// $.each($(".hint1").children, function(element){
+//     window.push($(this));
+// });
+// $(".hint1").children.each=()=>{
+//         window.push($(this));
+// }
+// console.log(window);
     const hint = () => {
+    //     let window =[]
+    //     $.each($(".hint1").children, function(element){
+    // window.push($(this));
+    //    });
+    //     let yes = "Yes"
+    //     let maybe = "Answer is close"
+    //     if(yes === true) {
+    //         $(".hint1").children[i].style.backgroundColor = "deepskyblue";
+    //     } else if (maybe === true) {
+    //         $(".hint1").children[i].style.backgroundColor = "hotpink";
+    //     } else{
+    //         return;
+    //     }
         let showHint = $("<h4>").text(compare())
-        $("#window").append(showHint)
-        console.log(compare());
-        if (compare().includes("Yes","Yes", "Yes", "Yes")) {
-            $('.page8').show();
-            $('.page1').hide();
-            $('.page2').hide();
-            $('.page3').hide();
-            $('.page4').hide();
-            $('.page5').hide();
-            $('.page6').hide();
-            $('.page7').hide();
-        } else {
+        $("#window1").append(showHint)
+        if (compare().filter(el => el !== "Yes","Yes", "Yes", "Yes")) {
+            $('.try1').hide();
             $('.page2').show();
             $('.page3').show();
             $('.page1').hide();
@@ -103,7 +114,17 @@ $(() => {
             $('.page5').hide();
             $('.page6').hide();
             $('.page7').hide();
+            
+        } else {
             $('.page8').hide();
+            $('.page8').show();
+            $('.page1').hide();
+            $('.page2').hide();
+            $('.page3').hide();
+            $('.page4').hide();
+            $('.page5').hide();
+            $('.page6').hide();
+            $('.page7').hide();
         }
     console.log(compare());
     }

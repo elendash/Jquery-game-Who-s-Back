@@ -1,6 +1,14 @@
+body{
+    grid-template-columns: 100px  auto 100px;
+    grid-template-rows: repeat(6, 100px [row-start]) auto;
+    font-family: Righteous, Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
 h1 {
-    color: grey;
-    font-size: 20;
+    color:darkslategrey;
+    font-size: 50px;
+    text-align: center;
+
 }
 .start{
     position: relative;
@@ -8,13 +16,16 @@ h1 {
     top: 400px;
 }
 
-.p{
-    position: relative;
-    left: 900px;
+p{
+    text-align: center;
     top: 400px;
-    color: darkgrey;
+    font-size: 30px;
+    color: darkslategrey;
     z-index: +1;
+}
 
+.start{
+    position:absolute;
 }
 #kennel1 {
     background-color: burlywood;
@@ -25,12 +36,57 @@ h1 {
     z-index: -1;
     position:relative;
 }
-#window{
+#window1{
     color:black;
     position: relative;
     left: 250px;
     top: 300px;
     font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#window2{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#window3{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#window4{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
 #door1{
     position:relative;
@@ -76,7 +132,6 @@ h1 {
     position:relative;
     width: 100px;
     height: 30px;
-    
     border-radius: 40px 40px 40px 40px;
     text-align: center;
     color: white;
@@ -84,6 +139,7 @@ h1 {
     top: -390px;
     background:transparent;
     border:transparent;
+
 }
 #treat2{
     position:relative;
@@ -124,11 +180,7 @@ h1 {
     background:transparent;
     border:transparent;
 }
-button{
-    position:relative;
-    left: 15px;
-    top: -140px;
-}
+
 #kennel2 {
     background-color: burlywood;
     height: 100px;
@@ -137,46 +189,59 @@ button{
     border: 3px solid black;
     z-index: -1;
     position:relative;
-    top: -330px;
+    top: -130px;
 }
-#door5{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 30px;
-    top: -410px;
-    
-}
-#door6{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
+#window5{
+    color:black;
+    position: relative;
     left: 250px;
-    top: -490px;
-    
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-#door7{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 470px;
-    top: -570px;
-    
+#window6{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-#door8{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 690px;
-    top: -650px;
+#window7{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#window8{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
     
 }
 #treat5{
@@ -224,7 +289,7 @@ button{
     left: 430px;
     top: -700px;
 }
- #kennel2 {
+ #kennel3 {
     background-color: burlywood;
     height: 100px;
     width: 920px;
@@ -233,45 +298,58 @@ button{
     z-index: -1;
     position:relative;
 }
-#door9{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 30px;
-    top: -80px;
-    
-}
-#door10{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
+#window9{
+    color:black;
+    position: relative;
     left: 250px;
-    top: -160px;
-    
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-#door11{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 470px;
-    top: -240px;
-    
+#window10{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-#door12{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 690px;
-    top: -320px;
-    
+#window11{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#window12{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+ 
 }
 #treat9{
     position:relative;
@@ -327,45 +405,57 @@ button{
     z-index: -1;
     position:relative;
 }
-#door13{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 30px;
-    top: -80px;
-    
-}
-#door14{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
+#window13{
+    color:black;
+    position: relative;
     left: 250px;
-    top: -160px;
-    
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-#door15{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 470px;
-    top: -240px;
-    
+#window14{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-#door16{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 690px;
-    top: -320px;
-    
+#window15{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#window16{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
 #treat13{
     position:relative;
@@ -421,45 +511,57 @@ button{
     z-index: -1;
     position:relative;
 }
-#door17{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 30px;
-    top: -80px;
-    
-}
-#door18{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
+#window17{
+    color:black;
+    position: relative;
     left: 250px;
-    top: -160px;
-    
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-#door19{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 470px;
-    top: -240px;
-    
+#window18{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-#door20{
-    position:relative;
-    background:black;
-    height: 80px;
-    width: 200px;
-    border-radius: 70px 70px 0px 0px;
-    left: 690px;
-    top: -320px;
-    
+#window19{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+#window20{
+    color:black;
+    position: relative;
+    left: 250px;
+    top: 300px;
+    font-size: medium;
+    background: lightblue;
+    height: 30px;
+    width: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
 #treat17{
     position:relative;
